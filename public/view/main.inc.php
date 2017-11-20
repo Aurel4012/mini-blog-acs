@@ -1,9 +1,3 @@
-<?php
-
-require_once ('admin/controler/control-category.php');
-require_once ('admin/controler/control-article.php');
-require_once ('admin/controler/control-admin-user.php');
-?>
 <main>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
