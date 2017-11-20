@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>
+<?php
+require_once('view/header.inc.php');
+require_once('view/nav.inc.php');
+require_once('view/main.inc.php');
+require_once('view/footer.inc.php');
+?>
