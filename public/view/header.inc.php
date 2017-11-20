@@ -12,9 +12,9 @@
             <link href="css/blog-post.css" rel="stylesheet">
 
             <?php
-                require_once ('../admin/controler/control-category.php');
-                require_once ('../admin/controler/control-article.php');
-                require_once ('../admin/controler/control-admin-user.php');
+                require_once ('admin/controler/control-category.php');
+                require_once ('admin/controler/control-article.php');
+                require_once ('admin/controler/control-admin-user.php');
             ?>
         </head>
     <header>
