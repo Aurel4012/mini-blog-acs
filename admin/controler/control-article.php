@@ -1,10 +1,11 @@
 <?php
 if (isset($_POST['ID_ARTICLE'])){
-htmlspecialchars(($_POST['ID_ARTICLE']));
-require_once ('../model/model-article');
+$ID_ARTICLE = htmlspecialchars(($_POST['ID_ARTICLE']));
+header('Location: ../model/model-article.php?ID_ARTICLE='.$ID_ARTICLE);
+
 }
 else{
-	echo '<h4>Aucun Article sélectioné</h4>';
+	header('Location: ../model/model-article.php');
 }
 
 
