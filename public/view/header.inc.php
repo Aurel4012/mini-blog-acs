@@ -17,3 +17,18 @@
                 require_once ('admin/controler/control-admin-user.php');
             ?>
         </head>
+    <header>
+    <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">Post Title</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by
+            <a href="#">Start Bootstrap</a>
+          </p>
+
+          <hr>
+    </header>
