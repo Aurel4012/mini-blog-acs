@@ -18,16 +18,13 @@
             ?>
         </head>
     <header>
-   
-        <div class="col-lg-12">
-            <img src="css\img\logo.png" class="text-center">
-          <div class="container row text-center">
-            <h1 class="mt-5  text-center">L'AlcoBlog - Le blog qui va vous faire tourner la tête!</h1>
-          </div>
-
-          <p class="lead">
-            Ici on ne parle que d'alcool donc si vous n'en buvez pas n'allez pas plus loin, on risque de vous saoûler! 
-          </p>
-
-          <hr>
+        <div class="container-fluid col-lg-12">
+            <div class="container text-center">
+                <img src="css\img\logo.png" class="text-center">
+                <h1 class="mt-3  text-center">L'AlcoBlog - Le blog qui va vous faire tourner la tête!</h1>
+            </div>
+            <p class="lead mt-2 text-center">
+                Ici on ne parle que d'alcool donc si vous n'en buvez pas n'allez pas plus loin, on risque de vous saoûler! 
+            </p>
+            <hr>
     </header>
