@@ -18,16 +18,15 @@
             ?>
         </head>
     <header>
-    <!-- Post Content Column -->
-        <div class="col-lg-8">
+   
+        <div class="col-lg-12">
+            <img src="css\img\logo.png" class="text-center">
+          <div class="container row text-center">
+            <h1 class="mt-5  text-center">L'AlcoBlog - Le blog qui va vous faire tourner la tête!</h1>
+          </div>
 
-          <!-- Title -->
-          <h1 class="mt-4">Post Title</h1>
-
-          <!-- Author -->
           <p class="lead">
-            by
-            <a href="#">Start Bootstrap</a>
+            Ici on ne parle que d'alcool donc si vous n'en buvez pas n'allez pas plus loin, on risque de vous saoûler! 
           </p>
 
           <hr>
