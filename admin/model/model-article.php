@@ -1,9 +1,10 @@
 <?php
-function getarticle($id_article){
+function getarticle(){
 if (isset($id_article)){
-	echo $id_article;
-}else{ echo 'Aucun Article';}
+	$message= $id_article;
+}else{ $message= 'Aucun Article';}
 
+require_once ('view/edit-article.php');
 
 
 }
