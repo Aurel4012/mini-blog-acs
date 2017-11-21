@@ -1,5 +1,5 @@
 <?php
-// echo getcwd().'<br>'; pour afficher l'url courante du dossier
+ echo getcwd().'<br>'; 
 	require_once('../public/view/header.inc.php');
 ?>
 

@@ -13,11 +13,12 @@ class Article_query
 
     public function getArticle($id_article)
     {
-			$req = $this->prepare('SELECT * FROM table_article WHERE id_article = :id_article');
+			$req = $this->_bdd->prepare('SELECT * FROM table_article WHERE id_article = :id_article');
 			$req->execute(array(
 			    'id_article' => $id_article));
 			    
 			$donnees = $req->fetch();
+			
 			$id_article = new Article($donnees);
 			return $id_article;
     }
