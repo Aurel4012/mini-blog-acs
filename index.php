@@ -1,5 +1,5 @@
 <?php
-require_once('public/view/header.inc.php');
-require_once('public/view/main.inc.php');
-require_once('public/view/footer.inc.php');
+    require_once ('admin/controler/control-category.php');
+    require_once ('admin/controler/control-article.php');
+    require_once ('admin/controler/control-admin-user.php');
 ?>
