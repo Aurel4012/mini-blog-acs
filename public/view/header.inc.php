@@ -7,9 +7,9 @@
             <meta name="author" content="">
             <title>Mini-Blog ACS</title>
             <!-- Bootstrap core CSS -->
-            <link href="public/view/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            <link href="../../public/view/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
             <!-- Custom styles for this template -->
-            <link href="public/view/css/blog-post.css" rel="stylesheet">
+            <link href="../../public/view/css/blog-post.css" rel="stylesheet">
         </head>
         <header>
             <div class="container-fluid col-lg-12 mt-3">
