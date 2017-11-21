@@ -14,7 +14,7 @@
         <header>
             <div class="container-fluid col-lg-12 mt-3">
                 <div class="container text-center">
-                    <img src="public/view/css/img/logo.png" class="text-center">
+                    <img src="../../public/view/css/img/logo.png" class="text-center">
                     <h1 class="mt-3  text-center">L'AlcoBlog - Le blog qui va vous faire tourner la tête!</h1>
                 </div>
                 <p class="lead mt-2 text-center">
