@@ -1,11 +1,11 @@
 <?php
-if (isset($_POST['ID_ARTICLE'])){
-$ID_ARTICLE = htmlspecialchars(($_POST['ID_ARTICLE']));
-// header('Location: ../model/model-article.php?ID_ARTICLE='.$ID_ARTICLE);
+function getarticle($id_article){
+if (isset($id_article)){
+	echo $id_article;
+}else{ echo 'Aucun Article';}
 
-}
-else{
-	// header('Location: ../model/model-article.php');
+
+
 }
 
 ?>
