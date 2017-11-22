@@ -26,11 +26,13 @@
             <h5 class="card-header">Categories</h5>
               <div class="card-body">
                 <select class="col-11">
-                      <option>7% (Tranquille!)</option>
+                      
+                      <option><?php echo $name[0] ; ?></option>
+                      
                       <option>15% (Ca va je gère!)</option>
                       <option>20% (C'est le dernier!)</option>
                       <option>70% (Il est des nôtres!!)</option>
-                      <option> +70% (J'aoi% perdu mùon Mossepate!)</option>
+                      <option>+70% (J'aoi% perdu mùon Mossepate!)</option>
                     </select>
 
             </div>
