@@ -1,5 +1,8 @@
 <?php
-require 'index.php';
+// require 'index.php';
+if (isset($_GET['bdd'])){
+  $bdd = $_GET['bdd'];
+}
 
 	if(!empty($_GET['id_article'])) 
     {
@@ -9,7 +12,7 @@ require 'index.php';
     if(!empty($_POST)) 
     {
         $id_article = checkInput($_POST['id_article']);
-        $bdd = Database::connect();
+        $bdd::connect();
         $statement = $bdd->prepare("DELETE FROM table_article WHERE id_article = ?");
         $statement->execute(array($id_aricle));
         Database::disconnect();
@@ -23,4 +26,5 @@ require 'index.php';
       $data = htmlspecialchars($data);
       return $data;
     }
+}
 ?>
