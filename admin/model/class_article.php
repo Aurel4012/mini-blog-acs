@@ -13,20 +13,24 @@ private $_categorie;
 
 	public function __construct($donnees)
 	{
-		$this->_id_article = $donnees[0];
-		$this->_title = $donnees[1];
-		$this->_auteur = $donnees[2];
-		$this->_text = $donnees[3];
-		$this->_data_creation = $donnees[4];
-		$this->_data_update = $donnees[5];
-		$this->_preview_image = $donnees[6];
-		$this->_categorie = $donnees[7];
+		$this->_id_article = $donnees['id_article'];
+		$this->_title = $donnees['title'];
+		$this->_auteur = $donnees['auteur'];
+		$this->_text = $donnees['text'];
+		$this->_data_creation = $donnees['data_creation'];
+		$this->_data_update = $donnees['data_update'];
+		$this->_preview_image = $donnees['preview_image'];
+		$this->_categorie = $donnees['categorie'];
 	}
 
-    
-    public function setIdArticle($_id_article)
+    public function getIdArticle()
+    {     
+        return $this->_id_article;
+    }
+
+    public function setIdArticle($id_article)
     {
-        $this->_id_article = $_id_article;
+        $this->_id_article = $id_article;
 
         return $this;
     }
@@ -36,7 +40,7 @@ private $_categorie;
      */
     public function getTitle()
     {
-        return $this->_title;
+        return ucfirst(strtolower($this->_title));
     }
 
    
@@ -65,6 +69,10 @@ private $_categorie;
         return $this->_text;
     }
 
+    public function getResume($words)
+    {
+        return implode(' ', array_slice(explode(' ', $this->getText()), 0, $words)).'...';
+    }
 
     public function setText($_text)
     {
