@@ -1,5 +1,5 @@
 <?php
- echo getcwd().'<br>'; 
+ // echo getcwd().'<br>'; 
 	require_once('../public/view/header.inc.php');
 ?>
 

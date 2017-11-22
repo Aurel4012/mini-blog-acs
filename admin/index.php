@@ -7,8 +7,14 @@
 	catch(Exception $e){
 		die('Erreur : '.$e->getMessage());
 	} 
-	$_SESSION['bdd'] =  $bdd;//creer la variable session user
     require_once ('controler/control-category.php');
-    require_once ('controler/control-article.php');
+
+if (isset($_GET['id_article'])){
+$id_article = htmlspecialchars(($_GET['id_article']));
+require_once ('controler/control-article.php');
+}
+
+
+    
     require_once ('controler/control-admin-user.php');
  ?>
