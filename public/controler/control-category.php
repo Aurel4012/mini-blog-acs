@@ -1,5 +1,5 @@
 <?php
-    //sert à voir le rep courant echo getcwd();
+    //sert à voir le rep courant : echo getcwd();
 	
 
     try
@@ -19,6 +19,6 @@
 	else{
 		echo "Pas de GET";
 	}
-	require_once('admin/model/model-category.php');
+	// require_once('admin/model/model-category.php');
 	
 ?>

@@ -1,5 +1,5 @@
 <?php
-echo 'ok model-category';
+// echo 'ok model-category';
 require_once('model-categoryquery.php');
 	class Category{
 		private $_id_categorie;
@@ -41,11 +41,11 @@ require_once('model-categoryquery.php');
 
 }
 
-$category_query= new CategoryQuery($bdd);
-$category_liste= $category_query -> getList();
+// $category_query= new CategoryQuery($bdd);
+// $category_liste= $category_query -> getList();
 // $category_name= new Category();
- // $category_liste->getName();
-var_dump($category_name);
+// $category_liste->getName();
+// var_dump($category_name);
 // echo $category_name ->["name"];
 
 	require_once ('public\view\header.inc.php');
