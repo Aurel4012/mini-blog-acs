@@ -3,7 +3,6 @@
 	require_once('view/header.inc.php');
 ?>
 
-	
 <div class="container">
   <form method="post">
 
