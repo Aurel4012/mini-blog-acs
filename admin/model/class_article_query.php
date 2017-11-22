@@ -5,9 +5,9 @@ class Article_query
 
 
 
-	public function __construct($_bdd)
+	public function __construct($bdd)
 	{
-		$this->_bdd = $_bdd;
+		$this->_bdd = $bdd;
 	}
      	
 
