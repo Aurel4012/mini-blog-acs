@@ -15,6 +15,7 @@
 
     <button type="submit" class="btn btn-warning">Modifier</button>
 
+    <button type="submit" class="btn btn-danger lien-suppr" action="../controler/control-delete.php" method="post" name="id_article" value="<?php echo $id_article;?>">Supprimer</button>
 
 <script type="text/javascript" src="../public/view/vendor/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="../public/view/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
