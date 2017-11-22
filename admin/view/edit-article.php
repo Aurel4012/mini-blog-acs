@@ -11,9 +11,7 @@
   	 <label for="mini_img_import">Importer l'image miniature</label>
   
     <input type="file" name="mini_img" class="form-control-file" id="mini_img">
-=======
-  	
->>>>>>> 3dca1478b3b61cd73cd6b2d12b675c48d5a3fb34
+
     <textarea id="mytextarea"><?php echo $article_text ?></textarea>
 
 
