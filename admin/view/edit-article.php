@@ -3,6 +3,7 @@
 	require_once('view/header.inc.php');
 ?>
 
+	
 <div class="container">
   <form method="post">
 
@@ -19,12 +20,13 @@
     <a class="lien-suppr" href="./controler/control-delete.php">
     <button href="./admin/controler/control-delete.php??id_article=3&bdd=$bdd" class="btn btn-danger lien-suppr"  method="post" name="id_article" value="<?php echo $id_article;?>">Supprimer</button></a>
     </form>
+=======
+>>>>>>> 2a7a97f70058dadba046b31245339672472776d7
 <script type="text/javascript" src="../public/view/vendor/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="../public/view/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" type="text/javascript" src="../public/view/vendor/tinymce/jquery.tinymce.min.js"></script>
 <script type="text/javascript" src="../public/view/vendor/tinymce/tinymce.min.js"></script>
 <script type="text/javascript" src="../public/view/vendor/tinymce/edit.js"></script>
-<script type="text/javascript" src="js/action_button.js"></script>
 </div>
 
-<!-- <?php require_once('../public/view/footer.inc.php');?> Voir si éventuellement nous gardons le footer ou non? -->
+<!-- <?php require_once('../public/view/footer.inc.php');?> Voir si éventuellement nous gardons le footer ou non? --><?php require_once('../public/view/footer.inc.php');?>

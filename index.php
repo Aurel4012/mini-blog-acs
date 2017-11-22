@@ -1,19 +1,9 @@
 <?php
-    
-	session_start();
-    	//Connexion base de données
-	try{
-		$bdd = new PDO('mysql:host=localhost;dbname=mini-blog', 'root', '');
-		$bdd->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-	}
-	catch(Exception $e){
-		die('Erreur : '.$e->getMessage());
-	} 
+    require_once ('public/controler/control-category.php');
+    require_once ('public/controler/control-art.php');
+    require_once ('../mini-blog-acs/admin/controler/control-admin-user.php');
 
-    if(isset($_GET['categorie_name'])) {
-        require_once 'ctrl/test.php';
-    }else{
-    	require_once 'ctrl/liste.php';
-    	require_once 'views/liste.php';
-    }
+    // require_once ('public\view\header.inc.php');
+    // require_once ('public\view\main.inc.php');
+    // require_once ('public\view\footer.inc.php');
 ?>
