@@ -8,22 +8,13 @@
 
     <label for="mini_img_import">Titre de l'article</label>
     <input type="text" name="titre_article" value="<?php echo $article_title ?>" class="form-control-file" id="titre_article">
-<<<<<<< HEAD
+
      	 <label for="mini_img_import">Image Actuelle	 <img src="<?php echo $article_preview_image ?>"></label>
   	 <label for="mini_img_import">Importer l'image miniature</label>
   
     <input type="file" name="mini_img" class="form-control-file" id="mini_img">
 
     <textarea id="mytextarea"><?php echo $article_text ?></textarea>
-=======
->>>>>>> 9f6ee22c954836921a0180602167b3916b77abb7
-
-     	 <label for="mini_img_import">Image Actuelle	 <img src="<?php echo $article_preview_image ?>"></label>
-  	<label for="mini_img_import">Importer l'image miniature</label>
-    <input type="file" name="mini_img" class="form-control-file" id="mini_img" value="<?php echo $article_preview_image ?>">
-
-    <textarea id="mytextarea"><?php echo $article_text ?></textarea>
-
     <button  type="submit" class="btn btn-warning">Modifier</button>
     <a class="lien-suppr" href="./controler/control-delete.php">
     <button href="./admin/controler/control-delete.php??id_article=3&bdd=$bdd" class="btn btn-danger lien-suppr"  method="post" name="id_article" value="<?php echo $id_article;?>">Supprimer</button></a>
